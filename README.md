@@ -16,14 +16,16 @@ A small CLI that prints a human‑readable snapshot of a codebase. It shows the 
 
 ## Installation
 
-```bash
-# From the project root
-go build -o myreporeader
+Download the latest release from [GitHub Releases](https://github.com/whoisrgxu/my_repo_reader/releases), 
+unpack the archive for your OS/arch, and place `myreporeader` in your `$PATH`.
 
-# Optional: move onto your PATH
-# Linux/macOS (adjust path as needed)
-sudo mv myreporeader /usr/local/bin/
+Example (Linux/macOS):
+
+```bash
+curl -L https://github.com/whoisrgxu/my_repo_reader/releases/latest/download/myreporeader -o /usr/local/bin/myreporeader
+chmod +x /usr/local/bin/myreporeader
 ```
+
 **Requirements:** Go 1.20+
 
 ---
